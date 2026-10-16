@@ -1,118 +1,224 @@
-# AuraTravel — Premium Animated Travel Experience Platform
+# ✈️ AuraTravel — Premium Animated Travel Experience
 
-> "The world is closer than you think. Find your next extraordinary."
+<p align="center">
+  <img src="https://img.shields.io/badge/AuraTravel-Explore%20Beyond-0E7490?style=for-the-badge&logo=airplane&logoColor=white" alt="AuraTravel" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 18" />
+  <img src="https://img.shields.io/badge/Vite-Fast%20Development-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Motion-Interactive-FF69B4?style=for-the-badge" alt="Motion" />
+</p>
 
-AuraTravel is a modern, design-led travel discovery and trip-planning web application built for discerning travelers. Designed with cinematic aesthetics, restrained microinteractions, and client-side data persistence.
+<p align="center">
+  <em>The world is closer than you think. Find your next extraordinary.</em>
+</p>
+
+<p align="center">
+  <strong>DISCOVER &nbsp; · &nbsp; DREAM &nbsp; · &nbsp; DEPART</strong>
+</p>
 
 ---
 
-## 🌟 Architecture & Key Features
+## 🌍 Welcome to AuraTravel
 
-### 1. Cinematic Hero & Exploration Experience
-- **Fluid Motion Hero**: Staggered headline reveal, ambient gradients, floating coordinates badge, and responsive quick-search panel.
-- **12 Curated Global Destinations**:
-  - Bali, Indonesia
-  - Kyoto, Japan
-  - Swiss Alps, Switzerland
-  - Santorini, Greece
-  - Maldives
-  - Dubai, United Arab Emirates
-  - Kerala, India
-  - Kashmir, India
-  - Goa, India
-  - Cappadocia, Türkiye
-  - Paris, France
-  - Banff, Canada
-- **Multi-Factor Search & Filtering**:
-  - Live case-insensitive keyword search
-  - Category chips (Beaches, Mountains, Adventure, Culture, Luxury, Nature, City escapes)
-  - Interactive budget slider ($1,000 to $8,000)
-  - Duration selector (Short, Medium, Extended)
-  - Instant reset & dynamic result count
+**AuraTravel** is a premium, design-led travel discovery and trip-planning platform built for curious explorers and discerning travelers.
 
-### 2. Editorial Destination Profiles
-- High-resolution photography with aspect ratio guarantees and graceful fallbacks
-- Overview, 5 signature highlights, day-by-day suggested itineraries with interactive tabs
-- Local insider travel tips and mindful cultural etiquette guidelines
-- Clear illustrative weather forecast widget (labeled demo data)
-- Similar sanctuaries recommendations
-- Direct "Save to Bucket List" and "Adopt in Trip Planner" actions
+Discover extraordinary destinations, explore immersive travel guides, create personalized itineraries, and save your dream destinations — all through an elegant, responsive interface with refined motion and microinteractions.
 
-### 3. Interactive Trip Planner
-- **Full Itinerary Authoring**:
-  - Custom trip naming and destination selection
-  - Date picking with calendar validation (end date cannot precede start date)
-  - Traveler count slider and automatic per-person budget computation
-  - Travel pace and accommodation preference configuration
-- **Day-by-Day Activity Scheduler**:
-  - Add signature experiences from catalog or author custom notes
-  - Up / Down activity sequencing controls
-  - Activity removal
-- **Defensive LocalStorage Persistence**:
-  - Trips saved with defensive JSON error recovery
-  - Manage, load, edit, and delete trips with confirmation modal
+<!-- FLIGHT ANIMATION: Replace the image URL below with your own hosted animated flight GIF. -->
 
-### 4. Saved Sanctuaries (Favorites)
-- In-browser persistent bucket list
-- One-click heart toggle on destination cards with toast notification feedback
-- Polished empty state with "Discover Havens" call to action
-- Modal confirmation to clear all bookmarks
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Shankar1234566/auratravel/main/public/flight-animation.gif" alt="Animated airplane flying across the world" width="100%" />
+</p>
 
-### 5. Accessibility & Motion Harmony
-- **Reduced Motion Support**: Listens to system `prefers-reduced-motion` settings and adapts animation transitions.
-- **Keyboard Navigation & ARIA**: Full keyboard accessibility, visible focus rings, dialog `role="dialog"` modals with Escape key listeners and background scroll locking.
-- **No Layout Shifts**: Pre-allocated aspect ratios for visual media.
+<p align="center">
+  <sub>✈️ Your next adventure is only one journey away.</sub>
+</p>
+
+---
+
+## ✨ Experience the Journey
+
+### 🛫 Cinematic Discovery
+
+- Animated hero with staggered headline reveals and ambient gradients.
+- Responsive destination search and exploration interface.
+- Twelve curated global destinations.
+- Interactive category filters and live keyword search.
+- Budget slider, trip-duration selection, and instant filter reset.
+
+### 🏝️ Destination Stories
+
+- Destination profiles with high-resolution travel photography.
+- Signature highlights and day-by-day itinerary suggestions.
+- Interactive itinerary tabs and local insider tips.
+- Cultural etiquette guidance.
+- Illustrative weather information clearly identified as demo data.
+- Similar destination recommendations.
+- One-click bucket-list and trip-planner actions.
+
+### 🗺️ Intelligent Trip Planner
+
+- Create personalized trips with custom names.
+- Select destinations, travel dates, and traveler counts.
+- Configure travel pace and accommodation preferences.
+- Calculate estimated budgets per traveler.
+- Schedule activities and add custom notes.
+- Reorder or remove activities.
+- Save, edit, load, and delete trips.
+
+### ❤️ Saved Sanctuaries
+
+- Save favorite destinations to your personal bucket list.
+- Keep saved destinations after browser refresh.
+- Receive toast notifications for interactions.
+- Enjoy a polished empty state and clear-all confirmation.
+
+### ♿ Motion with Purpose
+
+- Responsive layouts for mobile, tablet, and desktop.
+- Reduced-motion support based on system preferences.
+- Keyboard-friendly navigation and visible focus indicators.
+- Accessible dialog interactions and Escape-key dismissal.
+- Persistent preferences using browser LocalStorage.
+- Smooth transitions without unnecessary layout shifts.
+
+---
+
+## 🧭 Explore the World
+
+| Destination | Experience |
+|---|---|
+| 🇮🇩 Bali, Indonesia | Tropical beaches and island escapes |
+| 🇯🇵 Kyoto, Japan | Culture, temples, and tradition |
+| 🇨🇭 Swiss Alps | Mountain scenery and alpine adventures |
+| 🇬🇷 Santorini, Greece | Coastal views and Mediterranean charm |
+| 🇲🇻 Maldives | Island luxury and turquoise waters |
+| 🇦🇪 Dubai, UAE | Modern architecture and desert adventures |
+| 🇮🇳 Kerala, India | Backwaters and lush greenery |
+| 🇮🇳 Kashmir, India | Lakes and Himalayan landscapes |
+| 🇮🇳 Goa, India | Beaches and coastal culture |
+| 🇹🇷 Cappadocia, Türkiye | Fairy chimneys and balloon rides |
+| 🇫🇷 Paris, France | Art, architecture, and city life |
+| 🇨🇦 Banff, Canada | Lakes, forests, and mountain trails |
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Framework**: React 18 (JSX)
-- **Tooling**: Vite
-- **Styling**: Tailwind CSS with custom design tokens (`Midnight #0B1220`, `Ocean #0E7490`, `Teal #14B8A6`, `Sand #F3E9D2`, `Gold #E9B949`)
-- **Animations**: Motion for React (`motion/react`) & refined CSS keyframes
-- **Icons**: Lucide React
-- **Routing**: React Router v6
-- **Storage**: HTML5 LocalStorage with fallback error handling
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,vite,js,tailwind,css,html,git,github" alt="Technologies used" />
+</p>
+
+- **Frontend:** React 18 with JSX
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS and custom design tokens
+- **Animations:** Motion for React and CSS keyframes
+- **Icons:** Lucide React
+- **Routing:** React Router v6
+- **Persistence:** HTML5 LocalStorage
+
+### 🎨 Design System
+
+| Token | Color |
+|---|---|
+| Midnight | `#0B1220` |
+| Ocean | `#0E7490` |
+| Teal | `#14B8A6` |
+| Sand | `#F3E9D2` |
+| Gold | `#E9B949` |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Get Started
 
 ### Prerequisites
-- Node.js (v18.0.0 or higher)
-- npm (v9.0.0 or higher)
 
-### Installation & Run
+- Node.js 18 or newer
+- npm 9 or newer
+
+### Installation
+
+**1. Clone the repository**
 
 ```bash
-# 1. Navigate into project folder
+git clone https://github.com/Shankar1234566/auratravel.git
+```
+
+**2. Navigate to the project**
+
+```bash
 cd auratravel
+```
 
-# 2. Install dependencies
+**3. Install dependencies**
+
+```bash
 npm install
+```
 
-# 3. Start development server
+**4. Start the development server**
+
+```bash
 npm run dev
+```
 
-# 4. Create production build
+**5. Create a production build**
+
+```bash
 npm run build
 ```
 
----
-
-## 📋 Verification & Testing Results
-
-| Test Category | Status | Notes |
-| :--- | :--- | :--- |
-| Project Structure | Passed | Clean modular architecture across `components/`, `pages/`, `hooks/`, `data/`, `styles/` |
-| Navigation | Passed | React Router routes working across Home, Explore, Details, Planner, Saved, About, Contact, 404 |
-| Responsive Layout | Passed | Tested across 320px, 375px, 768px, 1024px, and 1440px+ without horizontal overflow |
-| LocalStorage Persistence | Passed | Favorites and custom trips survive browser refresh with safe defensive parsing |
-| Form Validation | Passed | Date consistency checks and email regex validation implemented |
-| Accessibility | Passed | Focus rings, ARIA roles, Escape dismiss on modals |
+Open the local URL shown in your terminal to explore AuraTravel.
 
 ---
 
-## 📄 License & Credits
-Developed as an HR Frontend Technical Assessment Project. All photographs sourced via Unsplash royalty-free travel assets.
+## 🧪 Quality & Verification
+
+The project is designed around the following verification areas. Confirm the results against your actual current build before claiming every test has passed.
+
+- [ ] Application starts successfully.
+- [ ] All configured routes load correctly.
+- [ ] Search and category filters work.
+- [ ] Destination details and itinerary tabs work.
+- [ ] Trip creation and date validation work.
+- [ ] Activities can be added, reordered, and removed.
+- [ ] Favorites and trips persist after refresh.
+- [ ] Responsive layouts work across screen sizes.
+- [ ] Keyboard navigation and reduced-motion settings work.
+- [ ] Production build completes without errors.
+
+---
+
+## 🗺️ The Journey Ahead
+
+Potential future enhancements include:
+
+- Live flight and hotel integrations.
+- Interactive maps and route planning.
+- Real weather and destination data.
+- Collaborative trip planning.
+- Exportable travel itineraries.
+- Personalized travel recommendations.
+
+These are future possibilities, not claims about existing functionality.
+
+---
+
+## 👨‍💻 Developer
+
+**Bhavani Shankar Dasari**
+
+Frontend Development · React · UI/UX · Motion Design
+
+GitHub: [@Shankar1234566](https://github.com/Shankar1234566)
+
+---
+
+<p align="center">
+  <strong>✈️ Made for the love of discovery.</strong>
+  <br />
+  <em>Pack your curiosity. Follow your horizon. Find your Aura.</em>
+</p>
+
+<p align="center">
+  <sub>© AuraTravel · Developed as an HR Frontend Technical Assessment Project.</sub>
+</p>
