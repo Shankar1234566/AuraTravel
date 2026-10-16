@@ -1,0 +1,31 @@
+:root {
+  --color-midnight: #0B1220;
+  --color-midnight-surface: #111B2E;
+  --color-midnight-card: #162238;
+  --color-midnight-border: #1E2E4A;
+  --color-ocean: #0E7490;
+  --color-teal: #14B8A6;
+  --color-teal-hover: #0D9488;
+  --color-sand: #F3E9D2;
+  --color-warm-white: #FAFAF7;
+  --color-gold: #E9B949;
+  --color-muted: #8B97A8;
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  --shadow-subtle: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 12px 35px -5px rgba(0, 0, 0, 0.5), 0 0 1px 1px rgba(255, 255, 255, 0.05);
+  --shadow-glow: 0 0 30px -5px rgba(20, 184, 166, 0.25);
+  --shadow-gold-glow: 0 0 30px -5px rgba(233, 185, 73, 0.25);
+
+  --transition-fast: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 280ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 450ms cubic-bezier(0.16, 1, 0.3, 1);
+}
